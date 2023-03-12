@@ -7,7 +7,13 @@
 <h1>this is the body</h1>
 <p>this is where stuff of website are applied</p>
 
-{{some_string}}
+
+
+
+{% for list_item in list_of_values %}
+
+{{list_item}} <br> 
+{% endfor %}
 
 {% include 'myapp/snippets/body_snippets.html' %}
 </div>
