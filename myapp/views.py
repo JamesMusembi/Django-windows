@@ -7,4 +7,4 @@ def myview(request):
 
 def home_screen_view(request):
     print(request.headers)
-    return render(request, "myapp/base.html")
+    return render(request, "myapp/home.html")
